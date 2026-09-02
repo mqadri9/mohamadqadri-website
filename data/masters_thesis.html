@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Robotic Vision for 3D Modeling and Sizing in Agriculture — Mohamad Qadri</title>
+  <meta name="author" content="Mohamad Qadri">
+  <meta name="description" content="Master's thesis by Mohamad Qadri, Carnegie Mellon University, 2021.">
+
+  <!-- Google Scholar / Highwire Press metadata -->
+  <meta name="citation_title" content="Robotic Vision for 3D Modeling and Sizing in Agriculture">
+  <meta name="citation_author" content="Mohamad Qadri">
+  <meta name="citation_publication_date" content="2021/08">
+  <meta name="citation_dissertation_institution" content="Carnegie Mellon University">
+  <meta name="citation_technical_report_institution" content="Carnegie Mellon University">
+  <meta name="citation_technical_report_number" content="CMU-RI-TR-21-43">
+
+  <link rel="canonical" href="https://mohamadqadri.com/data/masters_thesis.html">
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.55;
+      color: #222;
+      margin: 0;
+      background: #fff;
+    }
+    main {
+      max-width: 820px;
+      margin: 48px auto;
+      padding: 0 24px 48px;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin-bottom: 12px;
+      color: #000e63;
+    }
+    .citation_author {
+      font-size: 1.25rem;
+      margin: 0 0 6px;
+    }
+    .venue {
+      margin: 0 0 24px;
+      color: #444;
+    }
+    .links {
+      margin: 22px 0 30px;
+    }
+    .links a {
+      margin-right: 16px;
+    }
+    h2 {
+      margin-top: 32px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .abstract {
+      text-align: justify;
+    }
+    .keywords {
+      color: #444;
+    }
+    a {
+      color: #253ba5;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1 class="citation_title">Robotic Vision for 3D Modeling and Sizing in Agriculture</h1>
+    <p class="citation_author">Mohamad Qadri</p>
+    <p class="venue">
+      Master's Thesis, Robotics Institute, Carnegie Mellon University, August 2021<br>
+      Technical Report: CMU-RI-TR-21-43
+    </p>
+
+    <p class="links">
+      <a href="https://publications.ri.cmu.edu/storage/publications/2021/08/Master_thesis.pdf">Official PDF</a>
+      <a href="https://publications.ri.cmu.edu/robotic-vision-for-3d-modeling-and-sizing-in-agriculture">RI publication page</a>
+      <a href="../">Mohamad Qadri's homepage</a>
+    </p>
+
+    <h2>Abstract</h2>
+    <div class="abstract">
+      <p>Obtaining accurate perceptual information is a critical component in agricultural robotics since there is a heavy need for interaction with the environment to perform tasks such as pruning, harvesting, and phenotyping. In this thesis, we tackle the problem of perception and 3D modeling in agriculture through the use of stereo cameras in the context of three applications: apple fruitlets sizing, online 3D reconstruction through in-hand camera manipulation, and sorghum field 3D modeling.</p><p>First, a deep-learning-based vision system aimed at measuring apple fruitlets in the field is presented achieving an accuracy of less than 1mm compared to ground truth measurements.</p><p>The problem of sorghum field 3D modeling is then tackled using Simultaneous Localization and Mapping (SLAM) techniques. An object-level feature association algorithm is proposed that enables the creation of 3D reconstructions robustly by taking advantage of the structure of robotic navigation in agricultural fields.</p><p>An object-level SLAM system is presented that utilizes recent advances in deep learning-based object detection and segmentation algorithms to detect and segment semantic objects in the environment which are used as landmarks for SLAM. The SLAM system does not use inertial sensory measurements and only relies on visual odometry from a stereo camera capturing images at the frame rate of 5Hz.</p><p>The object-based feature association algorithm enabled mapping 78% of a sorghum range on average in contrast with traditional visual features which have an average mapped distance of 38%. The system is also compared against ORB-SLAM2, a state-of-the-art visual SLAM algorithm, and shows significant performance improvement in the average mapped distance metric. Finally, we tackle the problem of 3D reconstruction and mapping through the use of an in-hand camera attached to a mobile robot.</p><p>A planning strategy to perform robotic arm scanning, a 3D reconstruction system, and preliminary apple fruitlet mapping strategies are proposed. The system was deployed in the field and used to autonomously scan tree canopies, collect datasets, and build 3D reconstructions in apple orchards.</p>
+    </div>
+
+    <p class="keywords">
+      <strong>Keywords:</strong>
+      Agricultural Robotics, Simultaneous Localization and Mapping, Deep Learning,
+      Path Planning, Robotic Vision, 3D Reconstruction and Modeling.
+    </p>
+  </main>
+</body>
+</html>
